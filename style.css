@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik Bubbles', cursive;
+    background-color: aliceblue;
+}
+
+.wellcomeArea {
+    padding: 70px 0px;
+}
+
+.wellcomeTextArea {
+    text-align: center;
+}
+
+.wellcomeTextArea h1 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #292929;
+}
+
+#myDesigtalClock {
+    text-align: center;
+    font-size: 66px;
+}
+
+#myDesigtalColckShowSeconds {
+    animation: Color 7s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color {
+    0% {
+        color: #1c2f08;
+    }
+
+    20% {
+        color: #00fcc2;
+    }
+
+    40% {
+        color: #0089ff;
+    }
+
+    60% {
+        color: #e200ff;
+    }
+
+    80% {
+        color: #0f0405;
+    }
+
+    100% {
+        color: #f500ff;
+    }
+}
+
+@-moz-keyframes Color {
+    0% {
+        color: #1c2f08;
+    }
+
+    20% {
+        color: #00fcc2;
+    }
+
+    40% {
+        color: #0089ff;
+    }
+
+    60% {
+        color: #e200ff;
+    }
+
+    80% {
+        color: #0f0405;
+    }
+
+    100% {
+        color: #f500ff;
+    }
+}
+
+@-webkit-keyframes Color {
+    0% {
+        color: #1c2f08;
+    }
+
+    20% {
+        color: #00fcc2;
+    }
+
+    40% {
+        color: #0089ff;
+    }
+
+    60% {
+        color: #e200ff;
+    }
+
+    80% {
+        color: #0f0405;
+    }
+
+    100% {
+        color: #f500ff;
+    }
+}
+
+#myDesigtalColckShowMinutes {
+    animation: Color 2s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@-moz-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@-webkit-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+#myDesigtalColckShowHour {
+    animation: Color 5s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@-moz-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@-webkit-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+#myDesigtalColckShowSession {
+    animation: Color 10s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@-moz-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@-webkit-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+#clone {
+    animation: Color 10s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@-moz-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@-webkit-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@media all and (max-width:480px) {
+    #myDesigtalClock {
+        font-size: 45px;
+    }
+
+    .wellcomeTextArea h1 {
+        font-size: 36px;
+        line-height: 33px;
+    }
+}
+
+@media all and (max-width:360px) {
+    #myDesigtalClock {
+        font-size: 30px;
+    }
+
+    .wellcomeTextArea h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
