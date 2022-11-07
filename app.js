@@ -51,7 +51,7 @@ const myDesigtalClockView = () => {
         clockHour = clockHour % 12;
     }
     //    clockHour >11 ? (clockHour = clockHour % 12);
-    clockHour >= 12 ? (clockSession = "PM") : clockSession;
+    clockHour <= 12 ? (clockSession = "PM") : clockSession;
     clockHour < 10 ? (clockHour = "0" + clockHour) : clockHour;
     clockMinute < 10 ? (clockMinute = "0" + clockMinute) : clockMinute;
     clockSeconds < 10 ? (clockSeconds = "0" + clockSeconds) : clockSeconds;
